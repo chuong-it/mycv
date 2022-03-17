@@ -1,0 +1,24 @@
+
+.App-skill {
+  min-width: 780px;
+  background-color: aqua;
+  height: 500px;
+  margin-left: 10px;
+  border-radius: 20px;
+  padding-top: 20px;
+  }
+  .App-skill .progress{
+    margin: 0px 20px 20px 20px;
+  }
+  .App-skill p{
+    padding-left: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  .App-skill h2{
+    margin: 10px 40px;
+    border-bottom: #333 1px solid;
+    padding-bottom: 10px;
+  }
+  
+  

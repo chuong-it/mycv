@@ -1,0 +1,17 @@
+.interest {
+  min-width: 780px;
+  background-color: aqua;
+  height: 500px;
+  margin-left: 10px;
+  border-radius: 20px;
+  padding-top: 20px;
+}
+.interest h2{
+  margin: 10px 40px;
+  border-bottom: #333 1px solid;
+  padding-bottom: 10px;
+}
+.interest h3 {
+  margin: 10px 40px;
+  line-height: 1.5;
+}

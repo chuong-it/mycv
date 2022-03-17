@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container {
+  margin: auto;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  top: 0;
+  width: 1200px;
+  position: fixed;
+}
+.navbar i {
+    font-size: 20px;
+    padding-left: 50px;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.App-main {
+  height: 500px;
+  min-width: 400px;
+  background-color: aquamarine;
+  margin-right: 10px;
+  border-radius: 20px;
+}
+.App-main img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: 100px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
