@@ -3,7 +3,7 @@ import "./Interest.css";
 
 function Interest({prop}) {
   const interest1 = prop[0].interest1
-  console.log(interest1)
+  // console.log(interest1)
   return (
 
     <div className="interest">

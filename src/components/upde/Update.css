@@ -1,0 +1,23 @@
+.Update{
+    min-width: 780px;
+    background-color: aqua;
+    height: 550px;
+    margin-left: 10px;
+    border-radius: 20px;
+    padding-top: 5px;
+}
+.Update h2 {
+        margin: 0px 40px 0px 40px;
+        border-bottom: #333 1px solid;
+        padding-bottom: 10px;
+}
+.form-group {
+    margin: 0px 20px 20px 20px;
+    height: 50px;
+
+}
+button{
+    margin-left: 40%;
+    margin-top: 10px;
+    border: solid 0.01;
+}
