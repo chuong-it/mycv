@@ -6,6 +6,7 @@ import About from './components/about/About';
 import Interest from './components/interest/interest';
 import Skill from './components/skill/skill';
 import Update from './components/upde/update';
+// import Logo from './components/logo/Logo';
 function App() {
   const [posts, setPosts] = useState([{}])
   useEffect(() => {
@@ -37,6 +38,7 @@ function App() {
         <Link to="/Skill">KỸ NĂNG</Link>
         <Link to="/Interest">SỞ THÍCH</Link>
         <Link to="/Update">UPDETE</Link>
+        {/* <Link to="/Logo">Logo</Link> */}
       </div>
       <div className="header">
         <div className="App-main">
@@ -50,6 +52,7 @@ function App() {
           <Route path='/Skill' element={<Skill prop={posts} />} />
           <Route path='/Interest' element={<Interest prop={posts} />} />
           <Route path='/Update' element={<Update />} />
+          {/* <Route path='/Logo' element={<Logo />} /> */}
         </Routes>
 
 
